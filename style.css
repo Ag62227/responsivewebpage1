@@ -1,23 +1,45 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#main, #sidebar {
+    background-color: #c8e7fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 #main{
-    border-style: solid;
-    border-color: palevioletred;
-    border-width: 2px;
+    width:55%;
 }
-
-.pink{
-    color: pink;
+.explain{
+    color:#1d1d99;
+ }
+ .title{
+    padding-left: 20px;
+    font-family: 'Brush Script MT';
+    font-size: 40px;
+ }
+ .first{
+    text-align: center;
+ }
+ 
+ 
+#sidebar{
+    width: 35%;
 }
-
-@media(min-width:600px){
-    #container{
-        display: flex;
-    
-    }
-    #main{
-        width: 70%;
-    }
-    
-    #sidebar{
-        width: 30%;
-    }
+img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
 }
